@@ -214,9 +214,14 @@
 
 /* Subcategory strip */
 .browse-subcategories {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   padding: 12px 32px;
   border-bottom: 1px solid rgba(27, 27, 27, 0.06);
   flex-shrink: 0;
+  position: relative;
+  z-index: 2;
 }
 
 /* Results list */

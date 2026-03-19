@@ -127,7 +127,7 @@ export default function StorePage() {
             <span className="hero-title-accent">o1</span> lab<br />store
           </h1>
           <p className="hero-subtitle">
-            Shared inventory for members<br />
+            Free consumables and tools for all<br />
             Browse · Check out · Return<br />
             Sydney, AU
           </p>
@@ -194,15 +194,6 @@ export default function StorePage() {
                 <span className="browse-results-count">
                   {results.length}
                 </span>
-                {activeCategory && (
-                  <button
-                    className="browse-results-clear"
-                    onClick={() => handleCategorySelect(null)}
-                    type="button"
-                  >
-                    Clear
-                  </button>
-                )}
               </div>
               {subcategoryList.length > 1 && (
                 <div className="browse-subcategories">
@@ -212,6 +203,15 @@ export default function StorePage() {
                     onSubcategoryChange={handleSubcategoryChange}
                     itemCounts={subcategoryCounts}
                   />
+                  {activeCategory && (
+                    <button
+                      className="browse-results-clear"
+                      onClick={() => handleCategorySelect(null)}
+                      type="button"
+                    >
+                      Clear
+                    </button>
+                  )}
                 </div>
               )}
               <div className="browse-list">

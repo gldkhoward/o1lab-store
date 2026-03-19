@@ -15,7 +15,7 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "o1 lab — Store",
+  title: "o1 lab - Store",
   description: "Browse equipment and consumables at o1 lab. Open access hardware lab in Sydney.",
 };
 
