@@ -1,0 +1,30 @@
+.tag {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding: 8px 16px;
+  border: 1.5px solid var(--dark);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--dark);
+  cursor: pointer;
+  transition: background 0.3s, border-color 0.3s, color 0.3s;
+  white-space: nowrap;
+}
+
+.tag:hover {
+  background: var(--yellow);
+  border-color: var(--yellow);
+}
+
+.tag--active {
+  background: var(--yellow);
+  border-color: var(--yellow);
+  color: var(--dark);
+}
+
+.tag--active:hover {
+  background: var(--yellow-light);
+  border-color: var(--yellow-light);
+}
