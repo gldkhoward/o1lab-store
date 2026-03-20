@@ -15,8 +15,8 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "o1 lab - Store",
-  description: "Browse equipment and consumables at o1 lab. Open access hardware lab in Sydney.",
+  title: "store",
+  description: "Browse equipment and consumables at o1 lab. Open access hardware store in Sydney.",
 };
 
 export default function RootLayout({
